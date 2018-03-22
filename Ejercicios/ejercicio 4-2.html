@@ -21,6 +21,10 @@
 	<script type="text/javascript" >
 	function cambio(){
 		//Mueve el div con id child desde el parent1 hasta el parent2
+		var $child = $('#child').clone();
+
+		//Despues de clonarlo lo voy a mover
+		$child.appendTo($('#parent2')); //Se coloca en el parent2
 	}
 	</script>
 </body>
