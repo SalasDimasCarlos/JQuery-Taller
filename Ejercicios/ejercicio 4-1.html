@@ -17,6 +17,13 @@
 	<script type="text/javascript" >
 	function cambio(){
 		//Crea un clon del span y ponlo debajo del original
+		var $span = $('span').clone();
+
+		//$span.appendTo($('#target')); //Lo inserta al final (despues)
+
+		$span.insertAfter($('span')); //Lo inserta despues
+
+
 	}
 	</script>
 </body>
